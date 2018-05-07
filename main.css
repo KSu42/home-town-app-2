@@ -65,7 +65,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 750px) {
   .top-news {
     width: 50%;
     order: -3;
