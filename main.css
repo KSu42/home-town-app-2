@@ -54,35 +54,55 @@ ul {
   margin: 0;
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 550px) {
   .hero {
     width: 50%;
-    order: -2;
+    order: -5;
   }
   .weather {
     width: 50%;
-    order: -1;
-  }
-}
-
-/* 
-@media screen and (min-width: 550px) {
-  .red {
-    width: 33.3333%;
-  }
-  .orange {
-    width: 66.6666%;
+    order: -4;
   }
 }
 
 @media screen and (min-width: 800px) {
-  .container {
-    width: 800px;
+  .top-news {
+    width: 50%;
+    order: -3;
+  }
+  .scores {
+    width: 50%;
+    order: -2;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .content {
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
+  .hero {
+    width: 33.3333%;
+    order: -5;
+  }
+  .top-news {
+    width: 33.3333%;
+    order: -4;
+  }
+  .weather {
+    width: 33.3333%;
+    order: -3;
+  }
+  .recent-news {
+    width: 66.6666%;
+    order: -2;
+  }
+  .scores {
+    width: 33.3333%;
+    order: -1;
+  }
 }
-*/
 
 /*
  *
