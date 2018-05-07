@@ -13,6 +13,7 @@ html,
 main,
 .hero,
 .hero article,
+.scores,
 .scores__table,
 .weather__next__image,
 footer {
@@ -56,11 +57,11 @@ ul {
 @media screen and (min-width: 450px) {
   .hero {
     width: 50%;
-    order: 1;
+    order: -2;
   }
   .weather {
     width: 50%;
-    order: 2;
+    order: -1;
   }
 }
 
