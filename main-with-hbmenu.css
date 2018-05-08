@@ -5,6 +5,14 @@ html {
   height: 100%;
 }
 
+a#menu svg {
+  width: 40px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  fill: #000;
+}
+
 body,
 html,
 .header__inner,
@@ -447,3 +455,26 @@ footer a {
     order: -1;
   }
 }
+
+/*
+ * Off-canvas layout styles.
+ */
+
+/* Since we're mobile-first, by default, the drawer is hidden. */
+
+nav {
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  /* This trasform moves the drawer off canvas. */
+  -webkit-transform: translate(-300px, 0);
+  transform: translate(-300px, 0);
+  /* Optionally, we animate the drawer. */
+  transition: transform 0.3s ease;
+}
+
+nav.open {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
