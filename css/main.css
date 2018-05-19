@@ -163,7 +163,7 @@ main {
 
 .hero {
 	position: relative;
-	background-image: url("/home-town-app-2/img/dog.jpg");
+	background-image: url("home-town-app-2/img/dog.jpg");
 	background-size: cover;
 	height: 300px;
 }
